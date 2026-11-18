@@ -4,10 +4,10 @@ public class Book {
     private String title;
     private String author;
     private double price;
-   // private int year;
+   private int year;
 
     // 2. Getters (public read access)
-    private  String getTitle() {
+    public String getTitle() {
         return title;
     }
 
@@ -19,12 +19,12 @@ public class Book {
         return price;
     }
 
-   /*  public int getYear() {
+     public int getYear() {
         return year; }
         public void setYear(int year) {
         this.year = year;
    
-    }*/
+    }
 
     // 3. Setters (public write access)
     public void setTitle(String title) {
@@ -46,7 +46,7 @@ public class Book {
         System.out.println("Title   : " + title);
         System.out.println("Author  : " + author);
         System.out.println("Price   : " + price + " DA");
-      //  System.out.println("Year    : " + year);
+        System.out.println("Year    : " + year);
         System.out.println("------------------------------------------");
     }
 }

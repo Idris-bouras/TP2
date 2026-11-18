@@ -19,11 +19,12 @@ public class main {
         book3.setTitle("algorithms 3");
         book3.setAuthor("Robert Sedgewick");
         book3.setPrice(5000.0);
-        book3.setYear(1994);  
-
+        book3.setYear(1994); 
+         book3.setYear(1994);   
+*/
         book1.setYear(2020);
         book2.setYear(2018);
-        book3.setYear(1994);  */
+       
         // C. Display both
         System.out.println("=== Book 1 ===");
         book1.displayInfo();
