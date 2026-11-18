@@ -3,27 +3,27 @@ public class main {
 
     public static void main(String[] args) {
 
-        // A. Create book1 and fill it via SETTERS
+        
         Book book1 = new Book();
         book1.setTitle("Clean Code");
         book1.setAuthor("Robert C. Martin");
         book1.setPrice(3200.0);
 
-        // B. Create book2 and fill it via SETTERS
+      
         Book book2 = new Book();
         book2.setTitle("Effective Java");
         book2.setAuthor("Joshua Bloch");
         book2.setPrice(4500.0);
 
-        Book book3 = new Book();
+     /*   Book book3 = new Book();
         book3.setTitle("algorithms 3");
         book3.setAuthor("Robert Sedgewick");
         book3.setPrice(5000.0);
-        book3.setYear(1994);
+        book3.setYear(1994);  
 
         book1.setYear(2020);
         book2.setYear(2018);
-        book3.setYear(1994);
+        book3.setYear(1994);  */
         // C. Display both
         System.out.println("=== Book 1 ===");
         book1.displayInfo();
@@ -39,7 +39,7 @@ public class main {
         System.out.println("=== Book 1 after price update ===");
         book1.displayInfo();
 
-        System.out.println("=== Book 3===");
+       /*  System.out.println("=== Book 3===");
         book3.displayInfo();
 
         // book.title="hacked";   title is private, so we cannot access it directly , we must use the setter method 
@@ -60,6 +60,6 @@ public class main {
 
         
         // in TP3 we will pevent the invalid value at the source inside the setter (validation) 
-
+ */
     }
 }

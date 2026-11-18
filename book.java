@@ -1,14 +1,13 @@
-
 public class Book {
 
     // 1. Private Attributes (Encapsulation)
     private String title;
     private String author;
     private double price;
-    private int year;
+   // private int year;
 
     // 2. Getters (public read access)
-    public String getTitle() {
+    private  String getTitle() {
         return title;
     }
 
@@ -20,9 +19,12 @@ public class Book {
         return price;
     }
 
-    public int getYear() {
-        return year;
-    }
+   /*  public int getYear() {
+        return year; }
+        public void setYear(int year) {
+        this.year = year;
+   
+    }*/
 
     // 3. Setters (public write access)
     public void setTitle(String title) {
@@ -36,9 +38,7 @@ public class Book {
     public void setPrice(double price) {
         this.price = price;
     }
-    public void setYear(int year) {
-        this.year = year;
-    }
+    
 
 
     // 4. Behavior
@@ -46,7 +46,7 @@ public class Book {
         System.out.println("Title   : " + title);
         System.out.println("Author  : " + author);
         System.out.println("Price   : " + price + " DA");
-        System.out.println("Year    : " + year);
+      //  System.out.println("Year    : " + year);
         System.out.println("------------------------------------------");
     }
 }
